@@ -1,5 +1,5 @@
 {
-  "name": "ton-connect-demo-bot",
+  "name": "utmost-bot",
   "version": "1.0.0",
   "scripts": {
     "compile": "npx rimraf dist && tsc",
@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@tonconnect/sdk": "^3.0.0-beta.1",
-    "dotenv": "^16.0.3",
     "node-telegram-bot-api": "^0.61.0",
     "qrcode": "^1.5.1",
     "redis": "^4.6.5"
@@ -26,6 +25,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "dotenv": "^16.3.1",
     "pm2": "^5.2.2",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",

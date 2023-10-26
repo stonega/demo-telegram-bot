@@ -51,15 +51,14 @@ async function main(): Promise<void> {
         bot.sendMessage(
             msg.chat.id,
             `
-This is an example of a telegram bot for connecting to TON wallets and sending transactions with TonConnect.
+Welcome to UtmostSwap telegram bot!
             
 Commands list: 
 /connect - Connect to a wallet
 /my_wallet - Show connected wallet
-/send_tx - Send transaction
+/swap - Swap tokens
 /disconnect - Disconnect from the wallet
 
-GitHub: https://github.com/ton-connect/demo-telegram-bot
 `
         );
     });
